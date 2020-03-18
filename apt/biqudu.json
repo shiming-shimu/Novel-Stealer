@@ -1,0 +1,8 @@
+{
+    "url" : "https://www.biqudu.net" , 
+    "surl" : "https://www.biqudu.net/searchbook.php?keyword=" , 
+    "book" : "</span><a href=\"(.+?)\">\r\n *?([^ ]+?)\r\n +?</a>" ,
+    "pageUrl" : "<dd> <a href=\"(.+?)\">.+?</a></dd>" ,
+    "chapter" : "<script>readx\\(\\);</script>((.|\n)*)<script>chaptererror" ,
+    "title" : "<title>(.+?)</title>"
+}
